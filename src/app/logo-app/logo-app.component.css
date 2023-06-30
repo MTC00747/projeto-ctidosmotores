@@ -1,0 +1,38 @@
+.container{
+    height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   
+}
+.container > img{
+    border-radius: 140px;
+    width: 60px;
+    margin-top: 20px;
+}
+.container>p {
+    color:white;
+    margin-bottom: 5px;
+    margin-left:20px;
+    font-family: 'codec';
+}
+@media screen and (max-width: 480px){
+    .container{
+        height: 70px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+    }
+    .container > img{
+        border-radius: 140px;
+        width: 60px;
+        margin-top: 20px;
+    }
+    .container>p {
+        color:white;
+        margin-bottom: 5px;
+        margin-left:20px;
+        font-family: 'codec';
+    }
+}
