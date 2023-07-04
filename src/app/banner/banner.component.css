@@ -1,11 +1,15 @@
 .container{
+    background-image:url('/assets/backee.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
-    height: 550px;
+    height: 750px;
 }
+/*    <div class="Imagem"><img src="/assets/Conserto.jpg" alt="Imagem-banner"></div>*/
 .banner{
     display: flex;
     justify-content: space-around;
@@ -22,18 +26,21 @@
 
 h1{
     color: white;
+    background-color: rgba(0, 0, 0, 0.349);
     font-family: 'codec';
     text-align: center;
-    margin-top: 140PX;
+    margin-top: 20PX;
 }
 h1 > strong{
     color:#fefefe;
     text-align: center;
+}.saiba-mais:hover{
+    top:5px;
 }
 .saiba-mais{
     position: relative;
-    top:1;
-    font-family: 'codec';
+    
+   
     margin-bottom: 50px;
     width: 50%;
     border-radius: 20px;
@@ -59,6 +66,7 @@ h2{
     text-align: center;
     width: 70%;
     margin-top: 150px;
+    background-color: #10172862;
 }
 span{
     color:#F4BC21;
@@ -66,7 +74,17 @@ span{
 p{
     color: white;
     text-align: center;
-    width: 50%;
+    width: 70%;
+    margin-bottom: 150px;
+    font-weight:bold;
+    font-size: 1.2em;
+    font-family: 'codec';
+    background-color: #10172862;
+}
+a{
+    text-decoration: none;
+    font-family: 'codec';
+    color:white;
 }
 @media screen and (max-width: 480px)
 {
@@ -76,7 +94,13 @@ p{
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        height: 550px;
+
+        height: 700px;
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
     }
     h1{
         color: white;
@@ -105,7 +129,7 @@ p{
         top:1;
         font-family: 'codec';
         margin-bottom: 50px;
-        width: 50%;
+        width: 60%;
         border-radius: 20px;
         padding: 10px;
         background: linear-gradient(to right, #FF3C5F,#F4BC21);
@@ -136,7 +160,7 @@ p{
     p{
         color: white;
         text-align: center;
-        width: 70%;
+        width: 90%;
         margin-bottom:20px ;
     }
     

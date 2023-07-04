@@ -1,5 +1,5 @@
 .container{
-    height: 70px;
+    height: 90px;
    display: flex;
    align-items: center;
    justify-content: flex-start;
@@ -18,7 +18,7 @@
 }
 @media screen and (max-width: 480px){
     .container{
-        height: 70px;
+        height: 100px;
        display: flex;
        align-items: center;
        justify-content: center;

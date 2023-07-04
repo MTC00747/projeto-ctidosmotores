@@ -1,0 +1,70 @@
+.banner-dois-container{
+    background-image: url('/assets/cti.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'codec';
+    margin-top: 240px;
+    background-color: rgba(0, 0, 0, 0.252);
+    width: 60%;
+
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #FF3C5F,#F4BC21);
+    margin: auto;
+    margin-top: 200px;
+}
+button > a{
+    text-decoration: none;
+    color : white;
+    font-family: 'codec';
+
+
+}
+@media screen and (max-width: 480px) {
+    .banner-dois-container{
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    h1{
+        color:white;
+        text-align: center;
+        font-size: 1em;
+        font-family: 'codec';
+        margin-top: 140px;
+        width: 100%;
+
+    }
+    button{
+        padding: 10px;
+        border-radius: 20px;
+        background: linear-gradient(to right, #FF3C5F,#F4BC21);
+        margin: auto;
+    }
+    button > a{
+        text-decoration: none;
+        color : white;
+        font-family: 'codec';
+
+    }
+}
