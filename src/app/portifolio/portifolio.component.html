@@ -1,0 +1,57 @@
+<div class="container">
+  <h1 class="titulo">
+    Nossos serviços
+  </h1>
+  <nav>
+    <button (click)="mostrarMotor()">Motores</button>
+    <button (click)="mostrarFerramenta()">Ferramentas elétricas</button>
+    <button (click)="mostrarBomba()">Bombas</button>
+  </nav>
+
+  <div class="content" *ngIf="motor">
+    <div class="images-text">
+      <div class="container-block">
+        <h3>Titulo</h3>
+        <img src="/assets/Motores/motor1.jpeg">
+        <p class="text-animation">descrição</p>
+      </div>
+      <div class="container-block">
+        <h3>Titulo</h3>
+        <img src="/assets/Motores/motor3.jpeg">
+        <p class="text-animation">descrição</p>
+      </div>
+
+      <div class="container-block">
+        <h3>Titulo</h3>
+        <img src="/assets/Motores/motor4.jpeg">
+        <p class="text-animation">descrição</p>
+      </div>
+
+      <div class="container-block">
+        <h3>Titulo</h3>
+        <img src="/assets/Motores/motor5.jpeg">
+        <p class="text-animation">descrição</p>
+      </div>
+      <div class="container-block">
+        <h3>Titulo</h3>
+        <img src="/assets/Motores/motor6.jpeg">
+        <p class="text-animation">descrição</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="content" *ngIf="ferramenta">
+    <div class="images-text">
+      <div class="container-block">
+        <h3>Titulo</h3>
+        <img src="assets/Ferramentas/ferramenta1.jpeg">
+        <p class="text-animation">descrição</p>
+      </div>
+    </div>
+  </div>
+  <div class="content" *ngIf="bomba">
+    <p>Bombas</p>
+  </div>
+
+  <app-contato></app-contato>
+</div>

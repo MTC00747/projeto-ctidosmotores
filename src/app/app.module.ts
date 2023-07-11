@@ -10,6 +10,7 @@ import { InfoComponent } from './info/info.component';
 import { InformacaoComponent } from './informacao/informacao.component';
 import { ContatoComponent } from './contato/contato.component';
 import { BannerDoisComponent } from './banner-dois/banner-dois.component';
+import { PortifolioComponent } from './portifolio/portifolio.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BannerDoisComponent } from './banner-dois/banner-dois.component';
     InfoComponent,
     InformacaoComponent,
     ContatoComponent,
-    BannerDoisComponent
+    BannerDoisComponent,
+    PortifolioComponent
   ],
   imports: [
     BrowserModule,

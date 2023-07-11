@@ -1,0 +1,140 @@
+.container {
+    height: 600px;
+ 
+}
+.titulo{
+    color : white;
+    text-align: center;
+    font-family: 'codec';
+}
+nav {
+    margin-right: 7px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > button{
+    
+    color: rgb(0, 0, 0);
+    font-family: 'codec';
+    padding: 10px;
+    border-radius: 20px;
+    border: transparent;
+    background: linear-gradient(to right, #FF3C5F,#F4BC21);
+    margin:10px
+}
+
+.content {
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-text> .container-block >img {
+    border-radius: 20px;
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+
+}
+.images-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-block{
+    margin: 50px;
+    margin-top: -10px;
+  
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+h3{
+    color: white;    
+}
+p{
+    color:white;
+}
+@media screen and (max-width: 480px) {
+    .container {
+        height: 600px;
+     
+    }
+    .titulo{
+        color : white;
+        text-align: center;
+        font-family: 'codec';
+    }
+    nav {
+        margin-right: 7px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav > button{
+        
+        color: rgb(0, 0, 0);
+        font-family: 'codec';
+        padding: 10px;
+        border-radius: 20px;
+        border: transparent;
+        background: linear-gradient(to right, #FF3C5F,#F4BC21);
+        margin:10px
+    }
+
+    .content {
+        margin-top: 30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .images-text> .container-block >img {
+        border-radius: 20px;
+        height: 200px;
+        object-fit: cover;
+        width: 200px;
+
+    }
+    .images-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-block{
+        margin: 50px;
+        margin-top: -10px;
+      
+        height: 300px;
+        display:flex;
+        flex-direction: column;
+  
+        align-items: center;
+    }
+    h3{
+        color: white;    
+    }
+    p{
+        color:white;
+    }
+    
+}
+
+/*<img src="/assets/Motores/motor7.jpeg">
+        <img src="/assets/Motores/motor2.jpeg">
+       
+        <img src="/assets/Motores/motor4.jpeg">
+        <img src="/assets/Motores/motor5.jpeg">
+        <img src="/assets/Motores/motor6.jpeg">*/
